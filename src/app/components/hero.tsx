@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function hero(){
     return(
         <div>
@@ -16,9 +18,12 @@ export default function hero(){
               perspiciatis repudiandae, ipsum quibusdam id obcaecati.
             </p>
           </div>
+          <Link href={"/shop"}>
+          
           <button className="bg-customGold py-6 px-20 font-bold text-[16px] absolute top-[585px] left-[778px]">
             Shop Now
           </button>
+          </Link>
         </div>
       </div>
     )

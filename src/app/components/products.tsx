@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Product() {
   return (
@@ -229,9 +230,12 @@ export default function Product() {
           </div>
         </div>
         {/* shop now button */}
+        <Link href={"/shop"}>
+        
         <button className="min-w-[245px] min-h-[48px] font-semibold text-[16px] leading-[150%] bg-white text-customGold border-2 border-customGold rounded-md">
     Shop More
 </button>
+        </Link>
 
       </div>
     </div>

@@ -37,7 +37,7 @@ export default function Header() {
                 Shop
               </Link>
               <Link
-                href={"/"}
+                href={"/blog"}
                 className="text-slate-600 hover:text-black font-medium leading-[16px]"
               >
                 Blog
@@ -55,7 +55,10 @@ export default function Header() {
             <TbUserExclamation className="text-2xl" />
             <FiSearch className="text-2xl" />
             <FaRegHeart className="text-2xl" />
+            <Link href={"/cart"}>
+            
             <MdOutlineShoppingCart className="text-2xl" />
+            </Link>
           </div>
         </nav>
       </header>

@@ -60,7 +60,7 @@ export default function Home() {
       {/* Banner */}
       <div className="flex items-center justify-center mt-6">
           <div className="text-center"> <h3 className="text-[20px] leading-[150%] font-semibold">
-            share you setup with
+            share your setup with
             </h3>
             <p className="text-[40px] leading-[120%] font-bold">
             #FuniroFurniture</p></div>

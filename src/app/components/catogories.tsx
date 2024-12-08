@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Catogories() {
   return (
@@ -16,22 +17,22 @@ export default function Catogories() {
       {/* cards */}
       <div className="my-6 flex justify-between">
         <div>
-            {/* <Link> */}
+            <Link href={"/shop"}>
              <Image src={"/Mask Group.png"} alt="Tables" width={381} height={480}/>
             <section className="text-center font-semibold text-[24px] my-6">Dining</section>
-            {/* </Link> */}
+            </Link>
         </div>
         <div>
-            {/* <Link> */}
+            <Link href={"/shop"}>
              <Image src={"/Screenshot 2024-12-08 094927.png"} alt="Tables" width={381} height={480}/>
             <section className="text-center font-semibold text-[24px] my-6">Living</section>
-            {/* </Link> */}
+            </Link>
         </div>
         <div>
-            {/* <Link> */}
+            <Link href={"/shop"}>
              <Image src={"/Mask group (1).png"} alt="Tables" width={381} height={480}/>
             <section className="text-center font-semibold text-[24px] my-6">Bedroom</section>
-            {/* </Link> */}
+            </Link>
         </div>
       </div>
     </div>
