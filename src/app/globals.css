@@ -2,26 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.firstchild{
+    width: 1440px;
+    height: 812.53px;
+    background-image: url('/scandinavian-interior-mockup-wall-decal-background 1.png');
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image within the container */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
 }
